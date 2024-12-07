@@ -1,0 +1,8 @@
+Flask==2.3.2
+Werkzeug==2.3.6
+tensorflow==2.10.0  # Or another version depending on your emotion models
+numpy==1.21.6
+opencv-python==4.5.5.64  # For image/video processing
+librosa==0.9.2  # For audio processing
+Pillow==9.2.0  # For image handling
+scikit-learn==1.0.2  # If you're using machine learning models

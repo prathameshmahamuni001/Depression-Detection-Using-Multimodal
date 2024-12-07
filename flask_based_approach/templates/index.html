@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimodal Emotion Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Multimodal Emotion Detection</h1>
+
+        <!-- Text Emotion Prediction Form -->
+        <div class="form-section">
+            <h2>Text Emotion Detection</h2>
+            <form action="/predict_text" method="POST">
+                <textarea name="text_input" placeholder="Enter text here..." rows="4" required></textarea>
+                <button type="submit">Predict Text Emotion</button>
+            </form>
+            <p class="emotion-result">Text Emotion: {{ text_emotion }}</p>
+        </div>
+
+        <!-- Image Emotion Prediction Form -->
+        <div class="form-section">
+            <h2>Image Emotion Detection</h2>
+            <form action="/predict_image" method="POST" enctype="multipart/form-data">
+                <input type="file" name="image" accept="image/*" required>
+                <button type="submit">Predict Image Emotion</button>
+            </form>
+            <p class="emotion-result">Image Emotion: {{ image_emotion }}</p>
+        </div>
+
+        <!-- Audio Emotion Prediction Form -->
+        <div class="form-section">
+            <h2>Audio Emotion Detection</h2>
+            <form action="/predict_audio" method="POST" enctype="multipart/form-data">
+                <input type="file" name="audio" accept="audio/*" required>
+                <button type="submit">Predict Audio Emotion</button>
+            </form>
+            <p class="emotion-result">Audio Emotion: {{ audio_emotion }}</p>
+        </div>
+
+        <!-- Video Emotion Prediction Form -->
+        <div class="form-section">
+            <h2>Video Emotion Detection</h2>
+            <form action="/predict_video" method="POST" enctype="multipart/form-data">
+                <input type="file" name="video" accept="video/*" required>
+                <button type="submit">Predict Video Emotion</button>
+            </form>
+            <p class="emotion-result">Video Emotion: {{ video_emotion }}</p>
+        </div>
+    </div>
+</body>
+</html>
