@@ -7,7 +7,7 @@ This project presents an innovative approach to mental health assessment by comb
 
 ---
 
-### **Uniqueness of the Project**
+### **Brief:**
 1. **Multimodal Integration**: Combines multiple data sources—**live video**, **audio**, and **text-based responses**—to analyze user emotions and behavioral patterns for robust and holistic detection.
 2. **Interactive Design**: Incorporates a dynamic question-answering system to engage users and gather textual data that complements video-based analysis.
 3. **Real-Time Insights**: Utilizes advanced machine learning models to process live video feeds and user inputs, ensuring timely and accurate results.
