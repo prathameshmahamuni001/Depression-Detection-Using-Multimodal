@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Emotion Prediction Result</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Final Emotion Prediction</h2>
+        <p>Based on the inputs provided, the detected emotion is:</p>
+        <h3>{{ final_emotion }}</h3>
+        <a href="{{ url_for('home') }}" class="btn">Start Again</a>
+    </div>
+</body>
+</html>

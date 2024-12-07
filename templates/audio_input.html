@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Audio Input</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Audio for Emotion Detection</h2>
+        <form action="{{ url_for('audio_input') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="audio" accept="audio/*" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Multimodal Emotion Detection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Multimodal Emotion Detection</h1>
+        <p>Click below to start the emotion detection process.</p>
+        <a href="{{ url_for('text_input') }}" class="btn">Start</a>
+    </div>
+</body>
+</html>

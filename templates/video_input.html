@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Video Input</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Upload Video for Emotion Detection</h2>
+        <form action="{{ url_for('video_input') }}" method="post" enctype="multipart/form-data">
+            <input type="file" name="video" accept="video/*" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
