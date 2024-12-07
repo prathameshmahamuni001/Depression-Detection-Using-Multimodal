@@ -63,3 +63,10 @@ This project presents an innovative approach to mental health assessment by comb
 ---
 
 This project underscores the potential of AI in mental health care, bridging the gap between technology and psychological assessment. It aims to provide a reliable, accessible, and scalable solution for early depression detection, empowering users and healthcare providers alike.
+
+### **Collaborators**
+Prathamesh Mahamuni - Project Manager (Team Lead + ML expert + Researcher)
+Shudhanshu Prasad - Machine Learning Engineer and Backend Developer
+Prajakta Pawar - UI designer and Front-end developer
+Atharva More - Frontend Developer and Researcher
+
