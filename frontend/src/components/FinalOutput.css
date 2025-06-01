@@ -1,0 +1,93 @@
+
+.final-output-container {
+    background: url('D:\other imp things\vs code all code\major project\integration\Multimodal_Depression_Detection\frontend\photos_webpage\alfred-kenneally-UWBX_FBvlbA-unsplash.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* 🌟 Blurred Glass Effect Box */
+.final-output-box {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    padding: 25px;
+    width: 550px; /* ✅ Fixed width */
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* 🔥 Title Styling */
+.title {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+/* 📊 Score & Severity Styling */
+.score, .severity-level {
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bold;
+    color: white;
+}
+
+/* 🚦 Severity Color Coding */
+.severity {
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* ✅ Green = Mild */
+.severity.mild { background: #2ecc71; color: white; }
+
+/* ⚠️ Orange = Moderate */
+.severity.moderate { background: #e67e22; color: white; }
+
+/* 🔴 Red = Severe */
+.severity.severe { background: #b73838; color: white; }
+
+/* 📢 Advice Styling */
+.advice {
+    font-size: 16px;
+    color: white;
+    margin-top: 12px;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 12px;
+    border-radius: 6px;
+}
+
+/* 📊 Chart Centering */
+.chart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* 🔄 Restart Button */
+.restart-btn {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.restart-btn:hover {
+    background: #388eb7;
+}
+
+/* 🔄 Loading Message */
+.loading {
+    font-size: 18px;
+    color: white;
+}

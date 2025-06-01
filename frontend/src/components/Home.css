@@ -1,0 +1,59 @@
+/* Home.css */
+.home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("D:\other imp things\vs code all code\major project\integration\Multimodal_Depression_Detection\frontend\photos_webpage\markus-winkler-Mjo15Hr9HUg-unsplash.jpg") no-repeat center center/cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); /* Dark overlay for text readability */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  .description {
+    font-size: 18px;
+    margin-bottom: 30px;
+    opacity: 0.9;
+    line-height: 1.6;
+  }
+  
+  .start-button {
+    padding: 12px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    background: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .start-button:hover {
+    background: #e85a50;
+    transform: scale(1.05);
+  }
+  

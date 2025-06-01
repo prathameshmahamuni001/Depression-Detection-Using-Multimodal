@@ -1,0 +1,101 @@
+/* VideoAnalysis.css */
+.video-analysis-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: url("D:\other imp things\vs code all code\major project\integration\Multimodal_Depression_Detection\frontend\photos_webpage\karen-zhao-jLRIsfkWRGo-unsplash.jpg") no-repeat center center/cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .content {
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    line-height: 1.5;
+  }
+  
+  .file-input {
+    padding: 10px;
+    font-size: 16px;
+    background: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .video-preview {
+    margin-top: 15px;
+  }
+  
+  .video-player {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 8px;
+  }
+  
+  .analyze-button {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 15px;
+  }
+  
+  .analyze-button:hover {
+    background: #e64a19;
+    transform: scale(1.05);
+  }
+  
+  .analyze-button:disabled {
+    background: #888;
+    cursor: not-allowed;
+  }
+  
+  .result {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+  }
+  
+  .redirect-message {
+    font-size: 14px;
+    margin-top: 5px;
+    color: #ffcc00;
+  }
+  
+  .error {
+    color: red;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
